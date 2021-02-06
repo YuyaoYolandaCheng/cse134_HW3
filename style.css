@@ -38,6 +38,7 @@
 
   @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 body {
+  min-width: 600px;
   padding: 300px;
   display: -webkit-box;
   display: flex;
