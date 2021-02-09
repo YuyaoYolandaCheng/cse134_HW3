@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Dosis:300,400");
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Kaushan+Script&family=Lato&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Kaushan+Script&family=Lato&family=Libre+Baskerville&family=Lovers+Quarrel&family=Sriracha&display=swap');
 
 @media(min-width:800px){
   .container-1{
@@ -14,7 +15,13 @@
 }
 
 .container-1 div, .container-2 div, .container-3 div{
-  border:1px #ccc solid;
+  font-family: 'Cardo', serif;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Lovers Quarrel', cursive;
+  font-family: 'Sriracha', cursive;
+  /* border:1px #ccc solid; */
 }
 
 .box-1 img{
@@ -23,6 +30,10 @@
 }
 
 .box-1 .title{
+    font-family: 'Cardo', serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     position: absolute;
     text-align: center;
     right: 8vw;
