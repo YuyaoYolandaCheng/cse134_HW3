@@ -71,7 +71,7 @@ max-width: 200px;
 float: left;
 margin-right:2rem; 
 border-radius: 50%;
--webkit-shape-outside:circle();
+-webkit-shape-outside:circle(50%);
 }
 
 nav {
