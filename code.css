@@ -44,11 +44,10 @@ nav {
   flex-wrap: wrap;
   overflow: hidden;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 2rem;
   margin: 0;
 }
 
-div[class*=box] {
+section[class*=box] {
 	  height: 50vh;
 	  width: 100%; 
     display: flex;
@@ -56,7 +55,8 @@ div[class*=box] {
     align-items: center;
 }
 
-div[class*=box] p{
+section[class*=box] p{
+    font: 1rem;
     color: white;
     position:absolute;
 }
@@ -81,7 +81,8 @@ div[class*=box] p{
 	cursor: pointer;
 	color: #FFF;
 	transition: 0.3s;
-	position: relative;
+  position: relative;
+  font-size: 2rem;
 }
 
 .btn a {
